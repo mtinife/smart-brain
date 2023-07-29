@@ -1,7 +1,44 @@
 .form {
     width: 700px;
+    background: white;
 }
 
 #mainbtn {
     border: none;
+}
+
+.detectionForm {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-items: left;
+  gap: 20px;
+}
+
+.detectionForm input {
+  padding: 20px;
+  width: 80%;
+  border-bottom: 2px solid white;
+  border-top: 0;
+  border-left: 0;
+  background: transparent;
+  border-right: none;
+  color: white;
+  font-size: 1.2em;
+}
+.detectionForm button {
+  color: white;
+}
+
+.faceDetectFormSection {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.faceDetectFormSection h1 {
+  font-size: 4em;
+  color: white;
 }
