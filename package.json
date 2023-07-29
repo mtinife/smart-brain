@@ -13,7 +13,7 @@
   },
   "overrides": {
     "clarifai": {
-    "axios": "$axios"
+      "axios": "$axios"
     }
   },
   "homepage": "https://mtinife.github.io/smart-brain/",
@@ -22,6 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
