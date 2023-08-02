@@ -25,6 +25,10 @@
   color: white;
   font-size: 1.2em;
 }
+.detectionForm input:focus-visible {
+  border-bottom: 3px solid #FFA3D7;
+  outline: none;
+}
 .detectionForm button {
   color: white;
 }
